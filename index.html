@@ -10,6 +10,21 @@
     <h1>Gitチュートリアル</h1>
     <p>git status</p>
     <p>git diff は ワークツリーとステージの差分を見るコマンド</p>
-    <p>git diff --staged のオプションを付けると、リポジトリとステージの差分になる。</p>
+    <p>
+      git diff --staged
+      のオプションを付けると、リポジトリとステージの差分になる。
+    </p>
+    <p>変更履歴を確認する git log</p>
+    <p>一行で表示する git lo --online</p>
+    <p>ファイルの変更差分を表示する git log -p index.html</p>
+    <p>表示するコミット数を制限する git log -n <コミット数></p>
+    <dl>
+      <dt>ファイルの削除を記録する</dt>
+      <dt>ファイルごと削除</dt>
+      <dd>git rm <ファイル名></dd>
+      <dd>git rm -r <ディレクトリ名></dd>
+      <dt>ファイルを残したいとき</dt>
+      <dd>git rm --cached <ファイル名></dd>
+    </dl>
   </body>
 </html>
